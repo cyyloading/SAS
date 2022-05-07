@@ -35,7 +35,7 @@ TITLE 'Class Example 2';
 DATA BodyIndex;
   INPUT subject name $ height weight score $;
   Label height = 'Height(cm)';
-  Label weight = 'Weight(cm)';
+  Label weight = 'Weight(kg)';
   DATALINES;
 11 Mohan 180 90 A
 10 .      .  90 B
@@ -47,4 +47,24 @@ DATA BodyIndex;
 RUN;
 
 PROC CONTENTS DATA=BodyIndex;
+RUN;
+
+
+/*
+Another example  
+*/
+
+DATA temp1;
+  INPUT subject 1-4 gender 6 height 8-10 weight 12-13 blood $ 15;  *number represents the occupied columns;
+  DATALINES;
+1011 1 166 90 A
+1012 2 169 80 B
+1121 1 168 99 D
+1122 2 175 70 E
+1331 1 164 85 B
+;
+RUN;
+
+PROC PRINT DATA=temp1;
+  TITLE 'Class Example 3: temp1 dataset';
 RUN;
