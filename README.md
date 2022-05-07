@@ -20,3 +20,13 @@ class1:
 4. use INPUT statement with propoer column numbers to read data arranged in well defined columns.
 5. use two-level name in the DATA statement for creating permanent SAS data set.
 6. use one-level name in the DATA statement for creating temporary SAS data set.
+
+class2:
+Restrictions on data read by List input:
+1. field must be separated by at least one blank (or other delimiter).
+2. field must be read in order from left to right.
+3. cannot skip or re-read fields.
+4. missing values must be represented by a place holder such as period.
+5. character values cannot contain embedded blanks.
+6. the default length of character values is 8 bytes. A longer value is truncated when it is written to the data set.
+7. data must be in standard character or numeric format.
