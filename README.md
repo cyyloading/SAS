@@ -30,3 +30,8 @@ Restrictions on data read by List input:
 5. character values cannot contain embedded blanks.
 6. the default length of character values is 8 bytes. A longer value is truncated when it is written to the data set.
 7. data must be in standard character or numeric format.
+
+class3:
+Formatted input: is capable of reading non standard numeric values, eg: 3.8%(percentage), 02/21/2022(date), $23.4(currency).
+1. standard numeric data: including number, decimal point, scientific notation with (E),(+),(-). Eg: 29, 3.54, -2, +53, 318E-2
+2. non standard numeric data: including ($),(%),(,), date and time value, data in fraction, binary/hexadecimal form of number.
