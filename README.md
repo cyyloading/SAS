@@ -9,6 +9,7 @@ Three different styles of input that are available to us in SAS:
 
 
 
+
 class1:
 1. use DATALINES statement to read instream data.
 2. use INFILE statement to read the data from a raw data file (in .dat or .txt format).
