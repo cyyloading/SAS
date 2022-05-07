@@ -7,7 +7,10 @@ Three different styles of input that are available to us in SAS:
 2. List input: allows you to read the data by simply listing the variable names in the INPUT statement. At least one space (or character) must occur between each value in the data set.
 3. Formatted input: allows you to read numeric data containing special characters, such as dates and dollar amounts.
 
-
+Three default SAS libraries:
+1. WORK: a temporary library for files that you do not want to be saved from session to session.
+2. SASHELP: a permanent library that contains sample data for practicing or illustrating purpose.
+3. SASUSER: a permanent library that contains SAS files, you can use it for personal use.
 
 
 class1:
