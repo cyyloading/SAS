@@ -8,6 +8,7 @@ Three different styles of input that are available to us in SAS:
 3. Formatted input: allows you to read numeric data containing special characters, such as dates and dollar amounts.
 
 
+
 class1:
 1. use DATALINES statement to read instream data.
 2. use INFILE statement to read the data from a raw data file (in .dat or .txt format).
