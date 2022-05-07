@@ -7,8 +7,8 @@ OPTIONS NODATE LS=74;
 TITLE 'Class Example 1';
 
 DATA Grade;
-INPUT subject gender $ exam1 exam2 hwgrade $;
-DATALINES;
+  INPUT subject gender $ exam1 exam2 hwgrade $;
+  DATALINES;
 11 M 80 90 A
 10 .  . 90 B
 12 M 60 98 A
@@ -19,7 +19,7 @@ DATALINES;
 RUN;
 
 PROC PRINT DATA=Grade;
-VAR subject gender;
+  VAR subject gender;
 RUN;
 
 PROC CONTENTS DATA=Grade;
@@ -33,10 +33,10 @@ Another example with label
 
 TITLE 'Class Example 2';
 DATA BodyIndex;
-INPUT subject name $ height weight score $;
-Label height = 'Height(cm)';
-Label weight = 'Weight(cm)';
-DATALINES;
+  INPUT subject name $ height weight score $;
+  Label height = 'Height(cm)';
+  Label weight = 'Weight(cm)';
+  DATALINES;
 11 Mohan 180 90 A
 10 .      .  90 B
 12 Sohab 160 98 A
