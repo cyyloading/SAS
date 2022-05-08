@@ -35,3 +35,20 @@ class3:
 Formatted input: is capable of reading non standard numeric values, eg: 3.8%(percentage), 02/21/2022(date), $23.4(currency).
 1. standard numeric data: including number, decimal point, scientific notation with (E),(+),(-). Eg: 29, 3.54, -2, +53, 318E-2
 2. non standard numeric data: including ($),(%),(,), date and time value, data in fraction, binary/hexadecimal form of number.
+
+class4:
+PRINT procedure to print data in various format.
+1. apply title or footnote to a printed page of SAS output.
+2. use FIRSTOBS= and OBS= option to print a subset of the observations.
+3. use VAR statement to print a subset of the variables.
+4. use NOOBS option to suppress the printing of the observation number.
+5. use LABEL option to print the variable labels.
+6. use SPLIT= option to split labels used as variable headings.
+7. use ID statement to emphasize key variable(s).
+8. use DOUBLE option to double-space the output.
+9. use FORMAT statement to print a variable in a previously specified format.
+10. use WHERE statement to print only a subset of the data, namely the subset meeting the condition specified in the WHERE statement.
+11. use SUM statement to specify the sum of certain variables.
+12. use BY statement to print observations in groups based on the values of the different BY groups.
+13. use UNIFORM option to make sure the columns of data line up from one report to the next.
+14. use SORT procedure to sort the data in the SAS data sets.
