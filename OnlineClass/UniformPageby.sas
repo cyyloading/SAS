@@ -19,7 +19,7 @@ PROC PRINT DATA=st_Patient UNIFORM;
   SUM visit;
 RUN;
 
-
+* pageby statement must have same variables that are used in BY statement;
 PROC PRINT DATA=st_Patient UNIFORM;
   TITLE "Basic Report of Patients - subtotal hosp visit";
   BY hosp;
